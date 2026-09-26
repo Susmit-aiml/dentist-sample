@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Priya Kapoor",
+        "role": "Verified Patient",
+        "rating": 5,
+        "text": "I was terrified of dental visits for years. Dr. Siddharth and his team completely changed my experience. Painless whitening and such a calming atmosphere — felt like a spa, not a clinic!",
+        "verified": true,
+        "source": "Google Review"
+    },
+    {
+        "id": 2,
+        "name": "Rajesh Mehra",
+        "role": "Verified Patient",
+        "rating": 5,
+        "text": "The online booking on their website took just 30 seconds — so convenient! Got my clear aligners consultation booked seamlessly. Zero waiting time at the clinic too. 10/10 service.",
+        "verified": true,
+        "source": "Google Review"
+    },
+    {
+        "id": 3,
+        "name": "Sneha Iyer",
+        "role": "Verified Patient",
+        "rating": 5,
+        "text": "Extremely clean clinic with state-of-the-art equipment. They explained every step before starting. Transparent pricing with zero hidden fees. Best dental experience in Delhi!",
+        "verified": true,
+        "source": "Google Review"
+    },
+    {
+        "id": 4,
+        "name": "Arjun Malhotra",
+        "role": "Verified Patient",
+        "rating": 5,
+        "text": "Had an emergency toothache on a Saturday. DentEase fit me in within 2 hours. Professional, empathetic, and truly top-tier care. The EMI option for my implant was a lifesaver too.",
+        "verified": true,
+        "source": "Google Review"
+    },
+    {
+        "id": 5,
+        "name": "Kavita Reddy",
+        "role": "Verified Patient",
+        "rating": 5,
+        "text": "My kids actually look forward to their dental checkups now! Dr. Siddharth is so gentle and patient with children. The kid-friendly waiting area is such a thoughtful touch. Highly recommend to families.",
+        "verified": true,
+        "source": "Google Review"
+    }
+]

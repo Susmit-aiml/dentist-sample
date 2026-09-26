@@ -225,8 +225,8 @@ export function initAdminPortal(defaultCases = [], defaultReviews = []) {
           </div>
           <div><label class="form-label">Treatment Duration *</label><input type="text" id="nc-duration" class="form-input" required placeholder="e.g. 2 Sessions (10 days)"></div>
           <div style="grid-column:span 2"><label class="form-label">Patient Complaint / Problem *</label><input type="text" id="nc-problem" class="form-input" required placeholder="e.g. Gaps between front teeth affecting smile"></div>
-          <div><label class="form-label">Before Image URL *</label><input type="text" id="nc-before" class="form-input" required placeholder="/cases/veneers-before.png or URL"></div>
-          <div><label class="form-label">After Image URL *</label><input type="text" id="nc-after" class="form-input" required placeholder="/cases/veneers-after.png or URL"></div>
+          <div><label class="form-label">Before Image URL *</label><input type="text" id="nc-before" class="form-input" required placeholder="./cases/veneers-before.png or URL"></div>
+          <div><label class="form-label">After Image URL *</label><input type="text" id="nc-after" class="form-input" required placeholder="./cases/veneers-after.png or URL"></div>
           <div style="grid-column:span 2"><label class="form-label">Full Clinical Story Background</label><textarea id="nc-bg" class="form-input" rows="2" placeholder="Patient history and complaints..."></textarea></div>
           <div style="grid-column:span 2"><label class="form-label">Clinical Diagnosis &amp; Procedure Details</label><textarea id="nc-proc" class="form-input" rows="3" placeholder="Diagnostic findings, 3D scans, and step-by-step procedure..."></textarea></div>
           <div style="grid-column:span 2"><label class="form-label">Doctor's Clinical Note</label><textarea id="nc-note" class="form-input" rows="2" placeholder="Insights from Dr. Siddharth Malhotra..."></textarea></div>
@@ -370,8 +370,8 @@ export function initAdminPortal(defaultCases = [], defaultReviews = []) {
         duration: content.querySelector('#nc-duration').value.trim(),
         problem: content.querySelector('#nc-problem').value.trim(),
         description: content.querySelector('#nc-problem').value.trim(),
-        beforeImg: content.querySelector('#nc-before').value.trim() || '/cases/veneers-before.png',
-        afterImg: content.querySelector('#nc-after').value.trim() || '/cases/veneers-after.png',
+        beforeImg: content.querySelector('#nc-before').value.trim() || './cases/veneers-before.png',
+        afterImg: content.querySelector('#nc-after').value.trim() || './cases/veneers-after.png',
         blogContent: {
           heading: content.querySelector('#nc-title').value.trim(),
           background: content.querySelector('#nc-bg').value.trim() || 'Patient presented with aesthetic and functional concerns.',

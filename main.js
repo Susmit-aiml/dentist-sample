@@ -12,17 +12,17 @@ import { initBookingModal } from './components/booking.js';
 import { initChatbot } from './components/chatbot.js';
 import { initAdminPortal } from './components/admin-portal.js';
 
-async function initApp() {
+// Direct JSON imports so Vite bundles all clinic data with zero runtime fetch latency or 404 errors
+import services from './data/services.json';
+import reviews from './data/reviews.json';
+import faq from './data/faq.json';
+import cases from './data/cases.json';
+import doctor from './data/doctor.json';
+import clinic from './data/clinic.json';
+import chatbot from './data/chatbot-responses.json';
+
+function initApp() {
     try {
-        const [services, reviews, faq, cases, doctor, clinic, chatbot] = await Promise.all([
-            fetch('./data/services.json').then(r => r.json()),
-            fetch('./data/reviews.json').then(r => r.json()),
-            fetch('./data/faq.json').then(r => r.json()),
-            fetch('./data/cases.json').then(r => r.json()),
-            fetch('./data/doctor.json').then(r => r.json()),
-            fetch('./data/clinic.json').then(r => r.json()),
-            fetch('./data/chatbot-responses.json').then(r => r.json()),
-        ]);
 
         initHeader();
         renderTrustBar(clinic.stats);

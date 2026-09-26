@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "What should I expect during my first dental visit?",
+        "answer": "Your initial visit includes a gentle oral health examination, low-radiation digital X-rays (if needed), a deep cleaning, and a 1-on-1 discussion about your personal dental goals with Dr. Siddharth. The entire first visit typically takes about 45 minutes."
+    },
+    {
+        "id": 2,
+        "question": "Do you offer pain-free treatments for anxious patients?",
+        "answer": "Yes! We specialize in anxiety-free dentistry. We offer needle-free topical numbing, gentle ultrasonic technology, calming noise-canceling headphones, and mild nitrous oxide sedation — so you can relax completely during your treatment."
+    },
+    {
+        "id": 3,
+        "question": "Are your prices transparent? Do you accept insurance & EMI?",
+        "answer": "Absolutely. We provide clear, itemized quotes before any treatment begins with zero surprise bills. We offer cashless treatment under all major health insurance providers and 0% interest EMI options via major Indian banks and UPI payment."
+    },
+    {
+        "id": 4,
+        "question": "How does your instant online booking work?",
+        "answer": "Simply click 'Book Appointment' anywhere on the page, select your desired service and preferred date/time slot, and enter your details. You'll receive instant confirmation and can add it directly to your Google Calendar!"
+    },
+    {
+        "id": 5,
+        "question": "What if I need to reschedule or cancel my appointment?",
+        "answer": "You can reschedule or cancel free of charge up to 24 hours prior to your scheduled time via our AI chatbot, phone call, or WhatsApp. No cancellation fees, ever."
+    }
+]
