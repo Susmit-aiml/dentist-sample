@@ -1,0 +1,70 @@
+{
+    "name": "DentEase Dental Clinic",
+    "tagline": "Modern dental care, without the anxiety.",
+    "phone": "+91 98765 43210",
+    "email": "care@denteaseclinic.in",
+    "address": "2nd Floor, M-45, M Block Market, Greater Kailash-II, New Delhi 110048",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3!2d77.0688!3d28.5355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e564daac1d%3A0x2c582e340e7bc556!2sGreater%20Kailash%20II%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "hours": [
+        {
+            "day": "Monday",
+            "open": "09:30 AM",
+            "close": "07:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Tuesday",
+            "open": "09:30 AM",
+            "close": "07:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Wednesday",
+            "open": "09:30 AM",
+            "close": "07:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Thursday",
+            "open": "09:30 AM",
+            "close": "07:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Friday",
+            "open": "09:30 AM",
+            "close": "07:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Saturday",
+            "open": "10:00 AM",
+            "close": "04:00 PM",
+            "isOpen": true
+        },
+        {
+            "day": "Sunday",
+            "open": "Closed",
+            "close": "Closed",
+            "isOpen": false
+        }
+    ],
+    "stats": [
+        {
+            "number": "14+",
+            "label": "Years Experience"
+        },
+        {
+            "number": "4,500+",
+            "label": "Patients Treated"
+        },
+        {
+            "number": "4.9★",
+            "label": "Google Rating"
+        },
+        {
+            "number": "100%",
+            "label": "Painless Guarantee"
+        }
+    ]
+}

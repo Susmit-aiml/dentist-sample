@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DentEase — Modern Dental Care Without the Anxiety | New Delhi</title>
+  <meta name="description"
+    content="Experience pain-free, transparent dental care in Greater Kailash-II, New Delhi. Instant AI-powered online booking, laser whitening, clear aligners, implants & gentle pediatric care.">
+  <meta property="og:title" content="DentEase — Modern Dental Care Without the Anxiety | New Delhi">
+  <meta property="og:description"
+    content="Book your next dental visit in 30 seconds. AI-powered scheduling, transparent pricing, and painless modern treatment in GK-II, Delhi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <!-- ═══ SVG Icon Sprite (Outlined Dental Set) ═══ -->
+  <svg style="display:none">
+    <defs>
+      <symbol id="icon-tooth" viewBox="0 0 24 24">
+        <path
+          d="M12 2C8 2 5 4.5 5 8c0 3.5 1.5 7 2.5 10.5C8.5 21.5 10 22 11 22c1 0 1.5-1 2-2.5.5 1.5 1 2.5 2 2.5 1 0 2.5-.5 3.5-3.5C19.5 15 21 11.5 21 8c0-3.5-3-6-7-6z"
+          fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 8c1-1 2-1.5 3-1.5s2 .5 3 1.5" fill="none" stroke="currentColor" stroke-width="1.5"
+          stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-sparkle" viewBox="0 0 24 24">
+        <path d="M12 3v4m0 10v4M3 12h4m10 0h4m-3.5-6.5l-2.8 2.8m-7.4 7.4l-2.8 2.8m13-2.8l-2.8-2.8M6.3 6.3L3.5 3.5"
+          fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-brace" viewBox="0 0 24 24">
+        <rect x="3" y="8" width="18" height="8" rx="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <line x1="9" y1="8" x2="9" y2="16" stroke="currentColor" stroke-width="1.8" />
+        <line x1="15" y1="8" x2="15" y2="16" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="icon-implant" viewBox="0 0 24 24">
+        <path d="M7 4h10v3H7zM9 7v4M15 7v4M8 11h8v2H8zM10 13v3M14 13v3M9 16h6v4l-3 3-3-3v-4z" fill="none"
+          stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="icon-shield-check" viewBox="0 0 24 24">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linejoin="round" />
+        <path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-pulse" viewBox="0 0 24 24">
+        <path d="M22 12h-4l-3 9L9 3l-3 9H2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </symbol>
+      <symbol id="icon-smile" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <path d="M8 14s1.5 2 4 2 4-2 4-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <line x1="9" y1="9" x2="9.01" y2="9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+        <line x1="15" y1="9" x2="15.01" y2="9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92z"
+          fill="none" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+        <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <polyline points="12 5 19 12 12 19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <polyline points="20 6 9 17 4 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24">
+        <rect x="3" y="11" width="18" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="icon-chat" viewBox="0 0 24 24">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24">
+        <rect x="3" y="4" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+          fill="currentColor" stroke="currentColor" stroke-width="1" />
+      </symbol>
+      <symbol id="icon-map-pin" viewBox="0 0 24 24">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <polyline points="12 6 12 12 16 14" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" />
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <polyline points="22 6 12 13 2 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 1: Sticky Header
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <header id="site-header" class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="DentEase Home">
+        <svg class="logo-icon">
+          <use href="#icon-tooth"></use>
+        </svg>
+        <span class="logo-text">Dent<em>Ease</em></span>
+      </a>
+
+      <nav id="main-nav" class="main-nav" aria-label="Primary">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#doctor" class="nav-link">About</a>
+        <a href="#results" class="nav-link">Results</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#location" class="nav-link">Location</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="header-right">
+        <a href="tel:+919876543210" class="header-phone desktop-only">
+          <svg>
+            <use href="#icon-phone"></use>
+          </svg>
+          <span>+91 98765 43210</span>
+        </a>
+        <button id="header-book-btn" class="btn-accent">Book Now</button>
+        <button id="hamburger-btn" class="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile overlay backdrop -->
+  <div id="mobile-overlay" class="mobile-menu-overlay"></div>
+
+  <!-- Mobile drawer -->
+  <aside id="mobile-menu" class="mobile-drawer" aria-hidden="true">
+    <nav class="mobile-drawer-nav">
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#doctor" class="mobile-nav-link">About Dr. Siddharth</a>
+      <a href="#results" class="mobile-nav-link">Smile Transformations</a>
+      <a href="#reviews" class="mobile-nav-link">Patient Reviews</a>
+      <a href="#location" class="mobile-nav-link">Location & Hours</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <hr class="drawer-divider">
+      <a href="tel:+919876543210" class="mobile-nav-link accent">
+        <svg class="mobile-nav-icon">
+          <use href="#icon-phone"></use>
+        </svg> +91 98765 43210
+      </a>
+            <button id="mobile-drawer-book-btn" class="btn-accent w-full mt-2">Book Appointment</button>
+    </nav>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 2: Hero
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="hero" class="hero">
+      <!-- Warm radial gradient orb (Grand Street / Beverly Hills inspired) -->
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow-tag">
+            <svg>
+              <use href="#icon-sparkle"></use>
+            </svg>
+            AI-Assisted · Patient-Centered Care · GK-II, Delhi
+          </div>
+          <h1 class="hero-h1">
+            Modern dental care,<br>
+            <em>without the anxiety.</em>
+          </h1>
+          <p class="hero-sub">
+            Experience pain-free treatments, transparent pricing, and gentle care
+            in a calming environment built around your comfort.
+          </p>
+          <div class="hero-ctas">
+            <button id="hero-book-btn" class="btn-accent btn-lg">
+              Book Appointment
+              <svg>
+                <use href="#icon-arrow-right"></use>
+              </svg>
+            </button>
+            <a href="tel:+919876543210" class="btn-outline btn-lg">
+              <svg>
+                <use href="#icon-phone"></use>
+              </svg>
+              Call Now
+            </a>
+          </div>
+          <!-- Social proof micro-strip (Sky Dental inspired) -->
+          <div class="hero-social-proof">
+            <div class="proof-stars">
+              <svg>
+                <use href="#icon-star"></use>
+              </svg>
+              <svg>
+                <use href="#icon-star"></use>
+              </svg>
+              <svg>
+                <use href="#icon-star"></use>
+              </svg>
+              <svg>
+                <use href="#icon-star"></use>
+              </svg>
+              <svg>
+                <use href="#icon-star"></use>
+              </svg>
+            </div>
+            <span class="proof-text">Rated <strong>4.9</strong> from <strong>500+</strong> Google Reviews</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-frame">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80"
+              alt="Warm modern clinic interior with dental chair" class="hero-img" width="600" height="450"
+              loading="eager">
+            <!-- Floating availability badge (Sky Dental inspired) -->
+            <div class="hero-badge">
+              <div class="badge-dot"></div>
+              <div>
+                <strong>Next Available Today</strong>
+                <span>2:30 PM · Dr. Siddharth Malhotra</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 3: Trust Bar
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="trust-bar" class="trust-bar">
+      <div class="container trust-bar-grid">
+        <!-- JS: trust-bar.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 4: Doctor Profile
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="doctor" class="section-padded bg-warm">
+      <div class="container doctor-grid">
+        <!-- JS: doctor.js -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 5: Services
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="services" class="section-padded">
+      <div class="container">
+        <header class="sec-header">
+          <span class="eyebrow-tag-sm">What We Offer</span>
+          <h2 class="sec-title">Comprehensive Gentle Dental Services</h2>
+          <p class="sec-desc">From preventive checkups to advanced cosmetic transformations — painless, transparent, and
+            patient-first.</p>
+        </header>
+        <div id="services-grid" class="services-grid">
+          <!-- JS: services.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 6: Why Choose Us
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="why-choose" class="section-padded bg-warm">
+      <div class="container">
+        <header class="sec-header">
+          <span class="eyebrow-tag-sm">Why DentEase</span>
+          <h2 class="sec-title">Reinventing the Dental Experience</h2>
+        </header>
+        <div id="why-choose-grid" class="usp-grid">
+          <!-- JS: why-choose.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 7: Before/After Slider
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="results" class="section-padded">
+      <div class="container">
+        <div class="sec-header sec-header--split">
+          <div>
+            <span class="eyebrow-tag-sm">Real Transformations</span>
+            <h2 class="sec-title">Before &amp; After Smile Makeovers</h2>
+            <p class="sec-desc">Drag the interactive slider to see clinical results achieved by Dr. Siddharth Malhotra.</p>
+          </div>
+          <div class="sec-header-actions">
+            <button id="view-all-cases-btn" class="btn-outline btn-md" style="display:inline-flex;align-items:center;gap:.5rem">
+              <span>View All Cases &amp; Blogs</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </div>
+        <div id="before-after-wrapper" class="ba-wrapper">
+          <!-- JS: before-after.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 8: Patient Reviews
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="reviews" class="section-padded bg-warm">
+      <div class="container">
+        <div class="sec-header sec-header--split">
+          <div>
+            <span class="eyebrow-tag-sm">Patient Stories</span>
+            <h2 class="sec-title">Loved by 4,500+ Patients</h2>
+          </div>
+          <div class="carousel-arrows desktop-only">
+            <button id="reviews-prev" class="arrow-btn" aria-label="Previous">‹</button>
+            <button id="reviews-next" class="arrow-btn" aria-label="Next">›</button>
+          </div>
+        </div>
+        <div id="reviews-carousel-track" class="reviews-track">
+          <!-- JS: reviews.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 9: FAQ
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="faq" class="section-padded">
+      <div class="container container-narrow">
+        <header class="sec-header">
+          <span class="eyebrow-tag-sm">Got Questions?</span>
+          <h2 class="sec-title">Frequently Asked Questions</h2>
+        </header>
+        <div id="faq-accordion" class="faq-list">
+          <!-- JS: faq.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SECTION 10: Visit Us
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <section id="location" class="section-padded bg-warm">
+      <div class="container location-grid">
+        <!-- JS: visit-us.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       SECTION 12: Footer
+       ═══════════════════════════════════════════════════════════════════════ -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-light">
+          <svg class="logo-icon">
+            <use href="#icon-tooth"></use>
+          </svg>
+          <span class="logo-text">Dent<em>Ease</em></span>
+        </a>
+        <p class="footer-desc">Modern, gentle, and transparent dental care designed around your comfort.</p>
+        <div class="footer-contact-lines">
+          <p><svg>
+              <use href="#icon-map-pin"></use>
+            </svg> M-45, GK-II, New Delhi 110048</p>
+          <p><svg>
+              <use href="#icon-phone"></use>
+            </svg> +91 98765 43210</p>
+          <p><svg>
+              <use href="#icon-mail"></use>
+            </svg> care@denteaseclinic.in</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctor">About Dr. Siddharth</a></li>
+          <li><a href="#results">Smile Transformations</a></li>
+          <li><a href="#reviews">Patient Reviews</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">General Checkup</a></li>
+          <li><a href="#services">Laser Whitening</a></li>
+          <li><a href="#services">Clear Aligners</a></li>
+          <li><a href="#services">Dental Implants</a></li>
+          <li><a href="#services">Emergency Care</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p style="font-size:var(--ts-sm);color:var(--ink-faint);line-height:1.7">Mon–Fri: 9:30 AM – 7:00 PM<br>Sat: 10:00 AM – 4:00 PM<br>Sunday: Closed</p>
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn-outline btn-sm w-full" style="margin-top:.75rem;justify-content:center">💬 WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="footer-strip">
+      <div class="container footer-strip-inner">
+        <p>© 2026 DentEase Dental Clinic. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ Floating: Mobile Sticky CTA Bar ═══ -->
+  <div id="mobile-sticky-cta" class="mobile-cta-bar" aria-hidden="true">
+    <button id="mobile-bar-book-btn" class="btn-accent w-full">
+      <svg>
+        <use href="#icon-calendar"></use>
+      </svg>
+      Book Appointment
+    </button>
+  </div>
+
+  <!-- ═══ Floating: AI Chat Bubble (USP — Prominent) ═══ -->
+  <div id="ai-chat-bubble-wrap" class="chat-wrap">
+    <!-- Greeting tooltip that auto-shows on load -->
+    <div id="chat-tooltip" class="chat-tooltip">
+      <span>👋 Hi! Need help? Ask me anything!</span>
+      <button class="chat-tooltip-close" id="chat-tooltip-close" aria-label="Dismiss">✕</button>
+    </div>
+    <button id="ai-chat-toggle-btn" class="chat-fab chat-fab--big" aria-label="Open AI Dental Assistant">
+      <div class="chat-fab-content">
+        <span class="chat-fab-logo">🦷</span>
+        <span class="chat-fab-label">Ask AI</span>
+      </div>
+      <svg class="chat-ico-close hidden" style="width:28px;height:28px">
+        <use href="#icon-close"></use>
+      </svg>
+      <span class="chat-ring"></span>
+      <span class="chat-ring chat-ring--delay"></span>
+    </button>
+    <div id="ai-chat-panel" class="chat-panel hidden" aria-hidden="true">
+      <!-- JS: chatbot.js -->
+    </div>
+  </div>
+
+  <!-- ═══ Booking Modal Container ═══ -->
+  <div id="booking-modal-overlay" class="modal-overlay hidden" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card booking-card">
+      <button id="booking-modal-close" class="modal-x" aria-label="Close">✕</button>
+      <div id="booking-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ═══ Admin Portal Modal Container ═══ -->
+  <div id="admin-modal-overlay" class="modal-overlay hidden" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card admin-card">
+      <button id="admin-modal-close" class="modal-x" aria-label="Close">✕</button>
+      <div id="admin-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Razorpay Payment Gateway SDK -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

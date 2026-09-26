@@ -1,0 +1,255 @@
+﻿{
+    "intents": [
+        {
+            "intent": "greeting",
+            "keywords": ["hi", "hello", "hey", "start", "greetings", "good morning", "good afternoon", "good evening", "namaste", "namaskar"],
+            "responses": [
+                "Namaste! 🙏 Welcome to DentEase Dental Clinic, GK-II. I'm your AI dental assistant. How can I help your smile today?",
+                "Hello! 😊 Welcome to DentEase. I'm here to answer any questions about our services, book appointments, or help you with anything dental. What can I do for you?",
+                "Hi there! 👋 Great to see you at DentEase. Whether you need a checkup, whitening, or just have questions — I'm here to help!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Appointment", "action": "open_booking" },
+                { "text": "🦷 Our Services", "action": "show_services" },
+                { "text": "⏰ Clinic Hours", "action": "show_hours" },
+                { "text": "💰 Pricing & EMI", "action": "show_pricing" }
+            ]
+        },
+        {
+            "intent": "booking",
+            "keywords": ["book", "appointment", "schedule", "reserve", "slot", "visit", "consultation", "timing", "calendar", "chahiye", "milega", "available"],
+            "responses": [
+                "I can help you book an appointment with Dr. Siddharth right away! Just click below to pick your service and preferred date. It takes just 30 seconds! ⚡",
+                "Let's get you booked in! 📅 Dr. Siddharth has slots available this week. Click below to choose your service and time — instant confirmation guaranteed."
+            ],
+            "quickReplies": [
+                { "text": "✨ Book Now — 30 Seconds", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "services_general",
+            "keywords": ["service", "offer", "treatment", "procedure", "what do you do", "kya karte", "services list", "treatments available"],
+            "responses": [
+                "We offer 8 specialized dental services:\n\n🦷 General Checkup & Clean — ₹999\n✨ Laser Teeth Whitening — ₹4,999\n🔧 Clear Aligners — Flexible EMI\n🔩 Dental Implants — Custom Quote\n👶 Kids Dentistry — ₹799\n💉 Painless Root Canal — ₹6,999\n😁 Porcelain Veneers — ₹9,999/tooth\n🚨 Emergency Care — Priority\n\nAll treatments are 100% pain-free! Want to know more about any specific service?"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book a Service", "action": "open_booking" },
+                { "text": "📜 View Full Details", "action": "scroll_services" }
+            ]
+        },
+        {
+            "intent": "whitening",
+            "keywords": ["whitening", "whiten", "white teeth", "bright", "stains", "yellow", "discolor", "coffee stains", "chai stains", "peele daant"],
+            "responses": [
+                "Our Laser Teeth Whitening is one of our most popular treatments! ✨\n\n💰 Starting at ₹4,999\n⏱️ Single 60-minute session\n🎯 Up to 8 shades brighter\n😌 Completely pain-free\n\nWe use advanced Zoom laser technology — most patients see instant results. Great for removing years of chai, coffee, and tobacco stains. Want to book a session?"
+            ],
+            "quickReplies": [
+                { "text": "✨ Book Whitening", "action": "open_booking" },
+                { "text": "📸 See Before/After", "action": "scroll_results" }
+            ]
+        },
+        {
+            "intent": "aligners",
+            "keywords": ["aligner", "braces", "straighten", "crooked", "gap", "spacing", "invisalign", "ortho", "orthodont", "tedhe daant"],
+            "responses": [
+                "Our Clear Aligners are the modern alternative to metal braces! 🦷\n\n✅ Nearly invisible — most people won't notice\n✅ Removable for eating & brushing\n✅ AI-designed for precision\n✅ Average treatment: 6-12 months\n✅ Flexible EMI plans available\n\nDr. Siddharth is an Invisalign® Platinum Provider with 500+ aligner cases. The first step is a free 3D scan consultation!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Free Aligner Consult", "action": "open_booking" },
+                { "text": "🔄 Aligners vs Braces?", "action": "explain_aligners_vs_braces" }
+            ]
+        },
+        {
+            "intent": "aligners_vs_braces",
+            "keywords": ["aligners vs braces", "difference between", "which is better", "braces ya aligner"],
+            "responses": [
+                "Great question! Here's a quick comparison:\n\n**Clear Aligners:**\n✅ Invisible, removable, comfortable\n✅ No food restrictions\n✅ Fewer clinic visits\n⏱️ 6-12 months for mild-moderate cases\n\n**Traditional Braces:**\n✅ Better for complex/severe cases\n✅ No compliance needed (fixed)\n❌ Visible metal, harder to clean\n⏱️ 12-24 months typically\n\nDr. Siddharth will recommend the best option after examining your teeth. Both are available at our clinic!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Consultation", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "implants",
+            "keywords": ["implant", "missing tooth", "tooth loss", "replace tooth", "artificial tooth", "daat laga", "toot gaya"],
+            "responses": [
+                "Dental Implants are the gold standard for replacing missing teeth! 🔩\n\n✅ Permanent — lasts a lifetime with care\n✅ Looks & feels like a natural tooth\n✅ Bio-compatible titanium + ceramic crown\n✅ No impact on adjacent teeth\n💰 Custom quote based on your case\n💳 EMI options available\n\nThe process takes 3 sessions over 3 months. Dr. Siddharth has placed 800+ successful implants. Book a free consultation to get started!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Free Implant Consult", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "root_canal",
+            "keywords": ["root canal", "rct", "nerve", "infected tooth", "tooth pain", "swelling", "abscess", "daant mein dard"],
+            "responses": [
+                "Don't worry — our Root Canal Treatment is completely painless! 💉\n\n😌 Modern micro-endodontic technique\n💊 Gentle anesthesia — you won't feel a thing\n⏱️ Usually completed in 60 minutes\n💰 Starting at ₹6,999\n\nA root canal saves your natural tooth and eliminates the infection. Much better than extraction! If you're in pain right now, we can fit you in today as an emergency."
+            ],
+            "quickReplies": [
+                { "text": "🚨 Emergency — Book Now", "action": "open_booking" },
+                { "text": "📞 Call Clinic", "action": "call_clinic" }
+            ]
+        },
+        {
+            "intent": "veneers",
+            "keywords": ["veneer", "cosmetic", "chipped", "broken tooth", "chip", "reshape", "smile makeover"],
+            "responses": [
+                "Porcelain Veneers can completely transform your smile! 😁\n\n✨ Ultra-thin custom ceramic shells\n🎯 Fix gaps, chips, discoloration, uneven teeth\n⏱️ Just 2 sessions, 7-10 days apart\n💰 From ₹9,999 per tooth\n🏆 We use premium E-Max porcelain\n\nDr. Siddharth specializes in cosmetic veneers — she's done 300+ smile makeovers. Check our Before/After gallery for real results!"
+            ],
+            "quickReplies": [
+                { "text": "📸 See Results", "action": "scroll_results" },
+                { "text": "📅 Book Consult", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "kids_dentistry",
+            "keywords": ["kids", "child", "children", "pediatric", "baby teeth", "bachche", "bache ke daant"],
+            "responses": [
+                "We love treating little smiles! 👶\n\n🎈 Fun, anxiety-free environment\n🧸 Kid-friendly waiting area\n😊 Dr. Siddharth is especially gentle with children\n💰 Starting from just ₹799\n\nWe recommend first dental visits from age 1. We offer fluoride treatments, sealants, and gentle cleanings designed specifically for young ones. Your child will actually look forward to their next visit!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Kids Visit", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "emergency",
+            "keywords": ["emergency", "urgent", "broken", "knocked out", "bleeding", "severe pain", "swollen", "accident", "trauma", "turant"],
+            "responses": [
+                "🚨 We're here for dental emergencies!\n\nIf you're in severe pain or have a dental injury:\n\n📞 Call us immediately: +91 98765 43210\n⏱️ Same-day urgent appointments\n🏥 Priority care — no waiting\n\n**Tip:** If a tooth is knocked out, keep it in milk and come in within 30 minutes for the best chance of re-implantation.\n\nDon't wait — call now or book an emergency slot!"
+            ],
+            "quickReplies": [
+                { "text": "📞 Call Now", "action": "call_clinic" },
+                { "text": "🚨 Book Emergency", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "hours_location",
+            "keywords": ["hours", "open", "time", "location", "address", "where", "map", "directions", "weekend", "saturday", "sunday", "kahan hai", "kidhar"],
+            "responses": [
+                "📍 We're located at:\n**2nd Floor, M-45, M Block Market, Greater Kailash-II, New Delhi 110048**\n\n⏰ Our Hours:\n• Mon–Fri: 9:30 AM – 7:00 PM\n• Saturday: 10:00 AM – 4:00 PM\n• Sunday: Closed\n\n🚗 Easy parking available in GK-II market\n🚇 Nearest Metro: Kailash Colony (Violet Line)\n\nCome visit us!"
+            ],
+            "quickReplies": [
+                { "text": "📍 View on Map", "action": "scroll_location" },
+                { "text": "📅 Book Appointment", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "pricing_insurance",
+            "keywords": ["cost", "price", "insurance", "payment", "expensive", "fee", "plan", "claim", "coverage", "kitna", "paisa", "emi", "upi", "cashless"],
+            "responses": [
+                "We believe in 100% price transparency! 💰\n\n**Starting Prices:**\n• Checkup & Clean: ₹999\n• Laser Whitening: ₹4,999\n• Root Canal: ₹6,999\n• Veneers: ₹9,999/tooth\n• Kids Checkup: ₹799\n\n**Payment Options:**\n✅ Cash, Card, UPI (GPay, PhonePe, Paytm)\n✅ 0% EMI on cards (3/6/12 months)\n✅ Cashless insurance — all major providers\n✅ No hidden charges, ever\n\nNeed a detailed quote? Book a free consultation!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Get Free Quote", "action": "open_booking" },
+                { "text": "📜 View Services", "action": "scroll_services" }
+            ]
+        },
+        {
+            "intent": "pain_anxiety",
+            "keywords": ["pain", "hurt", "fear", "anxious", "scared", "afraid", "needle", "anesthesia", "sedation", "comfort", "nervous", "darr", "dard"],
+            "responses": [
+                "I completely understand — dental anxiety is very common and nothing to be embarrassed about! 🤗\n\nAt DentEase, we've designed everything around your comfort:\n\n😌 100% pain-free treatments guaranteed\n💊 Needle-free topical numbing gels\n🎧 Noise-canceling headphones with music\n😴 Gentle nitrous oxide sedation available\n🛋️ Spa-like calming environment\n☕ Warm beverage before your visit\n\nDr. Siddharth is especially known for His gentle touch. Many of our most loyal patients were once dental-phobic. You're in safe hands!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Gentle Visit", "action": "open_booking" },
+                { "text": "⭐ Read Patient Stories", "action": "scroll_reviews" }
+            ]
+        },
+        {
+            "intent": "doctor_info",
+            "keywords": ["doctor", "dentist", "dr", "siddharth", "malhotra", "sharma", "who is", "qualification", "experience", "kaun hai"],
+            "responses": [
+                "Meet Dr. Siddharth Malhotra, BDS, MDS! 👨‍⚕️\n\n🎓 AIIMS New Delhi alumnus\n🏅 14+ years of clinical experience\n👥 4,500+ patients treated\n🦷 Specializes in Cosmetic & Implant dentistry\n🏆 Invisalign® Platinum Provider\n📋 Member: Indian Dental Association (IDA)\n📋 Certified: ISDR Cosmetic Dentistry\n\nDr. Siddharth believes dentistry should feel empowering, not frightening. His gentle, patient-first approach has earned DentEase a 4.9★ Google rating."
+            ],
+            "quickReplies": [
+                { "text": "📅 Book with Dr. Siddharth", "action": "open_booking" },
+                { "text": "👨‍⚕️ Read Full Bio", "action": "scroll_doctor" }
+            ]
+        },
+        {
+            "intent": "post_treatment",
+            "keywords": ["after treatment", "care", "recovery", "what to eat", "precaution", "post", "baad mein", "kya karna"],
+            "responses": [
+                "Post-treatment care depends on the procedure, but here are general tips:\n\n**After Cleaning/Checkup:**\n• Avoid eating for 30 minutes\n• Mild sensitivity is normal for 24 hrs\n\n**After Whitening:**\n• Avoid tea, coffee, colored foods for 48 hrs\n• Use sensitivity toothpaste\n\n**After Root Canal/Extraction:**\n• Soft foods for 2-3 days\n• Take prescribed medicines on time\n• Avoid hot beverages for 24 hrs\n\nDr. Siddharth always provides detailed written instructions after every procedure. Any specific concerns?"
+            ],
+            "quickReplies": [
+                { "text": "📞 Call Clinic", "action": "call_clinic" }
+            ]
+        },
+        {
+            "intent": "facilities",
+            "keywords": ["parking", "metro", "facility", "facilities", "hygiene", "steriliz", "clean", "infection", "covid", "sanitiz"],
+            "responses": [
+                "Our clinic is designed for your safety and comfort! 🏥\n\n🅿️ Easy parking in GK-II Market complex\n🚇 10 min walk from Kailash Colony Metro\n♿ Wheelchair accessible\n🧹 Hospital-grade sterilization (Class B autoclave)\n😷 Strict infection control protocols\n📺 Ceiling-mounted entertainment screens\n☕ Complimentary beverages in the waiting area\n🌿 Calming, spa-like interiors\n\nWe follow all NABH and IDA sterilization guidelines. Your safety is our #1 priority."
+            ],
+            "quickReplies": [
+                { "text": "📍 Get Directions", "action": "scroll_location" }
+            ]
+        },
+        {
+            "intent": "thanks",
+            "keywords": ["thanks", "thank you", "dhanyavaad", "shukriya", "great", "helpful", "awesome", "perfect"],
+            "responses": [
+                "You're most welcome! 😊 If you have any more questions, I'm always here. Wishing you a bright, healthy smile! 🦷✨",
+                "Happy to help! 🙏 Don't hesitate to reach out anytime. We look forward to seeing you at DentEase!",
+                "Glad I could help! 😄 Remember, you can book an appointment anytime — just click the button below. Take care!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Appointment", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "goodbye",
+            "keywords": ["bye", "goodbye", "see you", "alvida", "chalta hu", "ok bye"],
+            "responses": [
+                "Goodbye! 👋 Wishing you a wonderful day and a sparkling smile! Don't forget — we're just a click away when you need us. 🦷",
+                "Take care! 🙏 See you at DentEase soon. Remember, regular checkups keep your smile bright!"
+            ],
+            "quickReplies": []
+        },
+        {
+            "intent": "comparison",
+            "keywords": ["vs", "versus", "compare", "difference", "better", "which one", "konsa"],
+            "responses": [
+                "I can help you compare treatments! Common questions we get:\n\n🔄 **Aligners vs Braces** — Aligners are invisible & removable; braces handle complex cases better\n🔄 **Veneers vs Bonding** — Veneers last 15+ years; bonding is quicker but less durable\n🔄 **Implant vs Bridge** — Implants are permanent & don't affect adjacent teeth\n🔄 **Whitening vs Veneers** — Whitening for stains; veneers for shape + color\n\nThe best option depends on your specific case. Dr. Siddharth can give you a personalized recommendation during a free consultation!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Free Consultation", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "checkup",
+            "keywords": ["checkup", "check up", "cleaning", "clean", "routine", "regular", "general", "safai"],
+            "responses": [
+                "A General Checkup & Clean is the foundation of great oral health! 🦷\n\n🔍 Comprehensive oral examination\n📸 Low-radiation digital X-rays (if needed)\n🧹 Professional ultrasonic deep cleaning\n👨‍⚕️ 1-on-1 with Dr. Siddharth\n⏱️ 45 minutes\n💰 Just ₹999\n\nWe recommend checkups every 6 months. Prevention is always better (and cheaper!) than cure. Most dental problems are painless in early stages — regular visits catch them early!"
+            ],
+            "quickReplies": [
+                { "text": "📅 Book Checkup (₹999)", "action": "open_booking" }
+            ]
+        },
+        {
+            "intent": "hindi_query",
+            "keywords": ["hindi mein", "hindi me", "samajh nahi", "kya hai", "batao", "bataiye"],
+            "responses": [
+                "Bilkul! 🙏 Main aapki madad kar sakta hoon.\n\nDentEase mein hum sabhi dental treatments offer karte hain — checkup, whitening, aligners, implants, root canal, aur emergency care.\n\nSab treatments pain-free hain aur EMI option bhi available hai. Appointment book karne ke liye neeche click karein!\n\n(I can also help in English — whatever you're comfortable with!)"
+            ],
+            "quickReplies": [
+                { "text": "📅 Appointment Book Karein", "action": "open_booking" },
+                { "text": "💰 Price List", "action": "show_pricing" }
+            ]
+        }
+    ],
+    "fallback": {
+        "responses": [
+            "I appreciate your question! While I may not have the specific answer, I can help with services, pricing, appointments, clinic hours, or treatment information. What would you like to know? 😊",
+            "Hmm, I'm not sure about that specific query. But I'm great at helping with bookings, service details, pricing, and clinic information! Try asking about any of these.",
+            "I want to make sure I give you accurate information! For detailed medical queries, I'd recommend speaking directly with Dr. Siddharth. Want me to help you book a consultation?"
+        ],
+        "quickReplies": [
+            { "text": "📅 Book Appointment", "action": "open_booking" },
+            { "text": "🦷 Our Services", "action": "show_services" },
+            { "text": "⏰ Clinic Hours", "action": "show_hours" },
+            { "text": "📞 Call Clinic", "action": "call_clinic" }
+        ]
+    }
+}

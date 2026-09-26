@@ -1,0 +1,90 @@
+[
+    {
+        "id": "case-1",
+        "title": "Severe Wear to Full Smile Makeover",
+        "patientName": "Ramesh, 42",
+        "category": "veneers",
+        "procedure": "Porcelain Veneers & Crowns",
+        "duration": "2 Sessions (10 days)",
+        "beforeImg": "/cases/veneers-before.png",
+        "afterImg": "/cases/veneers-after.png",
+        "fullImg": "/cases/veneers-full.png",
+        "problem": "Severe anterior tooth wear, chipped enamel stubs from nocturnal teeth grinding (bruxism), and loss of smile height.",
+        "description": "Restored full anatomical tooth structure, natural symmetry, and youthful smile with custom E-Max porcelain ceramic veneers.",
+        "blogContent": {
+            "heading": "Ramesh's Complete Smile Reconstruction Journey",
+            "background": "Ramesh, a 42-year-old corporate executive from South Delhi, struggled for years with chronic nocturnal teeth grinding (bruxism). Over time, his upper front teeth had worn down to tiny stubs, making chewing uncomfortable and leaving him embarrassed to smile during client meetings.",
+            "diagnosis": "Comprehensive digital examination with 3D intraoral scanning revealed significant loss of vertical dimension (approx. 3.5mm), exposed dentin on all maxillary anterior teeth, and moderate incisal edge chipping. Fortunately, all root canals were vital and healthy.",
+            "treatmentPlan": "A full maxillary aesthetic and functional rehabilitation: 6 custom hand-layered E-Max porcelain veneers combined with ultra-thin ceramic crowns, designed using Digital Smile Design (DSD) to restore natural proportions and protect his bite.",
+            "procedure": "Session 1: Conservative micro-preparation of the teeth with zero nerve damage, digital optical impressions taken, and aesthetic temporary restorations fitted. Session 2 (8 days later): Bonding of final custom shade-matched (BL3 aesthetic natural white) E-Max restorations with medical-grade resin cement under rubber dam isolation. Ramesh was also given a custom nightguard.",
+            "recovery": "Ramesh had zero downtime and resumed work the very next morning. Mild sensitivity for 48 hours resolved completely. He reported an immediate boost in self-confidence and can chew normally without strain.",
+            "doctorNote": "This case illustrates how restorative dentistry blends biological preservation with aesthetic art. By rebuilding Ramesh's incisal guidance, we not only gave him a striking movie-star smile but also safeguarded his joint health for the next 20+ years. — Dr. Siddharth Malhotra"
+        }
+    },
+    {
+        "id": "case-2",
+        "title": "Severe Chai & Coffee Staining Reversal",
+        "patientName": "Vikram, 35",
+        "category": "whitening",
+        "procedure": "In-Office Laser Whitening",
+        "duration": "1 Session (60 mins)",
+        "beforeImg": "/cases/whitening-before.png",
+        "afterImg": "/cases/whitening-after.png",
+        "fullImg": "/cases/whitening-full.png",
+        "problem": "Heavy yellow and brown stains accumulated over 8+ years of daily chai and coffee intake, creating a dull smile.",
+        "description": "Removed 8 years of stubborn deep stains in a single 60-minute pain-free laser clinical session, lightening by 8 shades.",
+        "blogContent": {
+            "heading": "Vikram's Single-Session Laser Whitening Miracle",
+            "background": "Vikram, a 35-year-old software architect, was an avid chai drinker — consuming 4 to 5 cups daily for over 8 years. The cumulative staining had discolored his natural enamel into a noticeable yellow-brown hue, particularly along the gingival margins.",
+            "diagnosis": "Clinical examination confirmed deep extrinsic and superficial intrinsic staining across all visible teeth in the aesthetic zone. His enamel integrity was intact with no active cavities or gum disease, making him an ideal candidate for medical laser activation.",
+            "treatmentPlan": "Single-session clinical whitening protocol utilizing 25% hydrogen peroxide gel activated by our cool-light diode laser system, paired with gingival barrier protection and remineralizing desensitizer.",
+            "procedure": "After isolating gums with a light-cured protective resin dam, three 15-minute cycles of laser activation were applied. Chair time was 60 minutes while Vikram listened to music on noise-canceling headphones. Shade progression was documented digitally from Vita shade A3.5 to B1 (8 shades brighter).",
+            "recovery": "Negligible sensitivity thanks to our post-op ACP fluoride remineralization protocol. Vikram was advised a 'white diet' (avoiding turmeric, dark tea, and coffee) for the first 72 hours. Results are expected to last 2-3 years with standard routine care.",
+            "doctorNote": "Patients often think deep tea stains require irreversible veneers, but modern diode laser protocols can restore natural brilliance in an hour without touching the enamel structure. Vikram's results speak for themselves. — Dr. Siddharth Malhotra"
+        }
+    },
+    {
+        "id": "case-3",
+        "title": "Severe Crowding & Overlap Correction",
+        "patientName": "Meera, 26",
+        "category": "aligners",
+        "procedure": "Clear Aligners Therapy",
+        "duration": "6 Months (14 Aligners)",
+        "beforeImg": "/cases/aligners-before.png",
+        "afterImg": "/cases/aligners-after.png",
+        "fullImg": "/cases/aligners-full.png",
+        "problem": "Significant dental crowding in upper and lower anterior arches, rotated lateral incisors, and midline deviation.",
+        "description": "Straightened crowded overlapping teeth and aligned bite harmony using transparent custom aligners with zero metal braces.",
+        "blogContent": {
+            "heading": "Meera's Invisible Path to a Straight, Harmonious Smile",
+            "background": "Meera, a 26-year-old fashion stylist, had struggled with severe anterior crowding since adolescence. Her central incisors overlapped and her lateral incisors were noticeably rotated inward. She wanted teeth alignment before her wedding but refused traditional metal brackets and wires.",
+            "diagnosis": "iTero 3D digital scan diagnosed Class I malocclusion with 5.5mm arch length discrepancy in the maxilla and 4mm in the mandible. No skeletal asymmetry; suitable for clear aligner therapy without premolar extractions.",
+            "treatmentPlan": "A non-extraction 14-aligner staged movement sequence. Targeted interproximal reduction (IPR) of 0.2mm was planned to create physiological space, alongside discreet composite attachments on premolars.",
+            "procedure": "Meera changed trays every 10 to 14 days, wearing them 22 hours daily. Progress checks occurred every 6 weeks. The digital simulation predicted movements accurately, and by tray 10 her anterior crossbite and crowding were completely eliminated.",
+            "recovery": "Meera reported zero mouth sores, no dietary restrictions, and friends rarely noticed she had trays in. Following treatment, a lingual fixed wire retainer plus nighttime clear retainers were fitted to guarantee permanent stability.",
+            "doctorNote": "Clear aligners are not just for minor cosmetic gaps; with precise digital staging, they handle significant rotational crowding and bite corrections smoothly. Meera completed her treatment right on schedule for her wedding day. — Dr. Siddharth Malhotra"
+        }
+    },
+    {
+        "id": "case-4",
+        "title": "Traumatic Tooth Loss to Implant Restoration",
+        "patientName": "Suresh, 52",
+        "category": "implants",
+        "procedure": "Nobel Biocare Implant + Zirconia Crown",
+        "duration": "3 Months (Total Care)",
+        "beforeImg": "/cases/case-implant-before.png",
+        "afterImg": "/cases/case-implant-after.png",
+        "fullImg": "/cases/case-implant.png",
+        "problem": "Fractured anterior tooth requiring extraction, bone preservation, and permanent tooth replacement.",
+        "description": "Seamlessly restored missing incisor with medical-grade titanium fixture and custom shade-matched translucent zirconia crown.",
+        "blogContent": {
+            "heading": "Suresh's Journey: From Traumatic Tooth Fracture to Permanent Dental Implant",
+            "background": "Suresh, a 52-year-old retired army officer, sustained a vertical root fracture on his upper central incisor during badminton. The tooth could not be saved and had to be extracted. As an active speaker, he needed a rock-solid, permanent replacement that would never wobble or look artificial.",
+            "diagnosis": "Cone Beam CT (CBCT) scan confirmed vertical fracture extending past the alveolar crest. Surrounding labial bone plate was preserved (1.8mm thickness), providing ideal parameters for immediate implant placement.",
+            "treatmentPlan": "Atraumatic extraction followed by placement of a Nobel Biocare Active titanium fixture with PRF (Platelet-Rich Fibrin) biological grafting. Healing period of 10 weeks followed by screw-retained custom zirconia crown.",
+            "procedure": "Session 1: Atraumatic tooth removal, titanium fixture placed at 45 Ncm torque (primary stability achieved), and a non-functional screw-retained temporary crown placed same day. Session 2 (10 weeks): Digital impression post-osseointegration. Session 3: Final custom CAD/CAM zirconia crown torqued to manufacturer specification.",
+            "recovery": "Minimal swelling managed with cold compresses and mild analgesics for 48 hours. Suresh resumed his regular diet after 7 days. The finished crown emerges naturally from the gum line with identical optical translucency to his natural teeth.",
+            "doctorNote": "Dental implants are the gold standard because they protect adjacent healthy teeth from being ground down for bridges and maintain bone volume for life. Suresh's result is indistinguishable from nature. — Dr. Siddharth Malhotra"
+        }
+    }
+]
